@@ -1,0 +1,116 @@
+.home-service-wrapper {
+    padding: 0 11.6%;
+    margin-bottom: 130px;
+  }
+  
+  .service-heading {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  .service-card-title{
+    text-align: left;
+  }
+  .service-cards-container {
+    justify-content: space-between;
+  }
+  
+  .service-card {
+    width: 29%;
+    justify-content: space-between;
+  }
+  
+  .service-card:hover .service-card-description {
+    box-shadow: 0px 2px 0px 0px #f8c011 inset;
+  }
+  
+  .service-card:hover .card-desc {
+    margin-top: -5px;
+  }
+  
+  .service-card-left-item {
+    width: 30%;
+    height: 216px;
+    content: "";
+    background: #d9d9d9;
+  }
+  
+  .service-card-right-item {
+    width: 66%;
+    /* display: flex;
+      flex-direction: column;
+      justify-content: space-between; */
+    height: 300px;
+    overflow-y: hidden;
+  }
+  
+  .service-card-right-item::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .service-card-title {
+    margin-bottom: 8px;
+    color: #616161;
+  }
+  
+  .service-card-description {
+    height: 270px;
+    background-color: #ffffff;
+    padding: 24px;
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+    transition: all 0.1s linear;
+  }
+  
+  .service-card-description::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .card-desc {
+    color: #8a8a8a;
+    transition: all 0.1s linear;
+  }
+  
+  .home-news-wrapper {
+    padding: 0 11.6%;
+    margin-bottom: 130px;
+  }
+  
+  .news-heading {
+    margin-bottom: 40px;
+  }
+  
+  .news-card {
+    width: 29%;
+  }
+  
+  .news-card-image-part {
+    width: 30%;
+    height: 300px;
+  }
+  
+  .news-card-image-part img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .news-card-details-part {
+    width: 70%;
+    height: 300px;
+    background-color: #ffffff;
+    padding: 24px 24px 20px 16px;
+  }
+  
+  .news-card-desc {
+    color: #8a8a8a;
+    margin: 12px 0 40px 0;
+  }
+  
+  .news-card-elem-date {
+    color: #0b4db0;
+  }
+  
+  .news-card-elem-read {
+    color: #f8c011;
+    margin-top: -4px;
+  }

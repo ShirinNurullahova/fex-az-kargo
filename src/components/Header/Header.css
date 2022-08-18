@@ -1,0 +1,105 @@
+/*! Header Main Starts !*/
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 4px 0px #e1e1e180;
+  z-index: 1;
+}
+
+.header-top {
+  height: 50px;
+  background: #484848;
+  padding: 15px 3.8% 15px 15.5%;
+  color: white;
+}
+
+.header-top-left ul li {
+  cursor: pointer;
+}
+
+.header-top-left ul li:nth-child(2) {
+  margin: 0 32px;
+}
+
+.header-top-contact {
+  margin-right: 52px;
+  cursor: pointer;
+}
+
+.header-top-contact svg {
+  margin-right: 6px;
+  margin-top: -3px;
+  width: 16px;
+  height: 16px;
+}
+
+.header-top-login-btn {
+  padding: 6px 20px;
+  background-color: transparent;
+  color: #484848;
+  border: 1.4px solid #484848;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: lowercase;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.header-top-login-btn::first-letter,
+.header-top-register-btn::first-letter {
+  text-transform: uppercase;
+}
+
+.header-top-register-btn {
+  padding: 6px 20px;
+  background: #f8c011;
+  color: white;
+  border: 1px solid #f8c011;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: lowercase;
+}
+
+.header-main {
+  height: 80px;
+  padding: 0 3.8%;
+  color: #616161;
+}
+
+.header-logo {
+  width: 152px;
+  height: 53px;
+}
+
+.header-logo img {
+  width: 100%;
+}
+
+.header-pages nav ul a {
+  cursor: pointer;
+  color: #454545;
+}
+
+.header-pages nav ul a:not(:last-child) {
+  margin-right: 32px;
+}
+.header-top-buttons{
+  margin-left: 40px;
+}
+@media only screen and (max-width: 1250px) {
+  .header-pages nav ul a:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .header-top-login-btn {
+    margin-right: -10px;
+    margin-left: -10px;
+    padding: 6px 10px;
+  }
+
+  .header-top-register-btn {
+    padding: 6px 10px;
+  }
+}

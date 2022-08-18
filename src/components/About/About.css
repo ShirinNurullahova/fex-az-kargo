@@ -1,0 +1,103 @@
+.about-page-main {
+    padding: 110px 11.6% 40px 11.6%;
+  }
+  
+  .about-heading {
+    color: #454545;
+    margin-bottom: 40px;
+  }
+  
+  .about-who-we-are {
+    justify-content: space-between;
+  }
+  
+  .about-info,
+  .we-are-fex-content,
+  .online-pay-content,
+  .companies-connection-info {
+    width: 50%;
+    margin-left: 20%;
+  }
+  
+  .about-courier-image,
+  .about-courier-man {
+    width: 22%;
+  }
+  
+  .about-courier-image img,
+  .about-courier-man img {
+    width: 100%;
+  }
+  
+  .who-we-are-head {
+    margin-bottom: 20px;
+    color: #454545;
+  }
+  
+  .text-about,
+  .we-are-fex-desc,
+  .online-pay-desc,
+  .companies-about {
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #797979;
+    line-height: 28px;
+  }
+  
+  .other-companies-connection-section {
+    padding: 60px 11.6% 40px 11.6%;
+  }
+  
+  .we-are-fex-section,
+  .online-pay-section {
+    padding: 25px 11.6% 1px 11.6%;
+    background: white;
+  }
+  
+  .empty-section {
+    content: "";
+    height: 120px;
+  }
+  
+  .we-are-fex-content,
+  .online-pay-content {
+    position: relative;
+  }
+  
+  .side-title {
+    width: 230px;
+    text-align: end;
+    padding: 10px 5px 0 0;
+    color: white;
+    background-color: #f8c011;
+    position: absolute;
+    top: -10px;
+    left: -160px;
+  }
+  
+  @media only screen and (max-width: 1650px) {
+    .text-about,
+    .we-are-fex-desc,
+    .online-pay-desc {
+      line-height: 24px;
+    }
+  
+    .about-courier-image,
+    .about-courier-man {
+      width: 25%;
+    }
+  
+    .side-title {
+      width: 180px;
+      left: -125px;
+    }
+  }
+  .about-heading{
+    text-align: left;
+  }
+  .who-we-are-head , .text-about ,.we-are-fex-desc ,.companies-about,.online-pay-desc{
+    text-align: left;
+  }
+ #bizFex , #bizimle{
+    text-align: right;
+ }

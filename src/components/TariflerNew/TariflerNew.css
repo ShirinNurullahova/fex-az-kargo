@@ -1,0 +1,28 @@
+.tarrifs-page {
+    padding: 128px 11.6%;
+    align-items: unset;
+    justify-content: center;
+  }
+  
+  .tarrifs-page-right {
+    margin-left: 72px;
+  }
+  
+  .tarrifs-page-text,
+  .tarrifs-page-right .home-tarrifs-text-heading {
+    margin-bottom: 40px;
+  }
+  
+  @media screen and (min-width: 1150px) and (max-width: 1422px) {
+    .tarrifs-page {
+      padding-left: 2.8%;
+      padding-right: 2.8%;
+    }
+  
+    .tarrifs-page-right {
+      margin-left: 32px;
+    }
+  }
+  .textTarif{
+    text-align: left;
+  }

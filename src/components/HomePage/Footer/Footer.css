@@ -1,0 +1,44 @@
+.footer {
+  padding: 40px 13.68% 40px 3.8%;
+  background: #484848;
+  opacity: 0.9;
+}
+
+.footer .logo-container {
+  flex: 3;
+  flex-direction: column;
+}
+
+.footer span.copyright {
+  color: #c4c4c4;
+  margin-top: 133px;
+}
+
+.footer .navigation {
+  display: flex;
+  justify-content: space-between;
+  flex: 7;
+}
+
+.footer .navigation ul {
+  flex-direction: column;
+}
+
+.footer .navigation ul h2 {
+  margin-bottom: 20px;
+  color: white;
+  white-space: nowrap;
+}
+
+.footer .navigation ul li a {
+  color: #f9f9f9;
+  margin-top: 4px;
+  display: inline-block;
+  width: 149px;
+}
+.navigation ul {
+    text-align: left;
+}  
+.logo-container{
+    display: flex;
+}

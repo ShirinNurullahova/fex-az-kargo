@@ -1,0 +1,103 @@
+.faq {
+    padding: 128px 11.6% 140px;
+  }
+  
+  .faq > .faq-title {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .faq > .nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .faq ul {
+    width: 100%;
+    max-width: 880px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(228, 228, 228, 0.6);
+    border-radius: 2px;
+    padding: 15px 24px;
+  }
+  
+  .faq li {
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 24px;
+    box-sizing: border-box;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .faq .text-description {
+    color: #333;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: all 400ms ease;
+  }
+  
+  .faq .text-description p {
+    color: #616161;
+  }
+  
+  .faq .text-description.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .faq .text-title {
+    color: #333;
+    width: 100%;
+  }
+  
+  .faq .text-title-h2 {
+    color: #616161;
+  }
+  
+  .faq .text-title span {
+    transition: all 400ms ease;
+    width: 10px;
+    position: relative;
+  }
+  
+  .faq .text-title span::before {
+    transition: all 400ms ease;
+  
+    content: "";
+    width: 10px;
+    height: 2px;
+  
+    left: 0;
+    background: #a8a8a8;
+    position: absolute;
+  }
+  
+  .faq .text-title span::after {
+    transition: all 400ms ease;
+  
+    content: "";
+    width: 10px;
+    height: 2px;
+    transform: rotate(-90deg);
+    left: 0;
+    background: #a8a8a8;
+    position: absolute;
+  }
+  
+  .faq .text-title span.active::after {
+    transform: rotateZ(0deg);
+  }
+  .d-flex-container {
+    text-align: left;
+  }
