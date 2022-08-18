@@ -1,0 +1,139 @@
+.register-section {
+    padding: 109px 11.6% 124px;
+  }
+  
+  .register-section h2.register-title {
+    margin-bottom: 40px;
+  }
+  
+  .register-section form.register-form {
+    box-shadow: 0px 2px 4px rgba(228, 228, 228, 0.6);
+    border-radius: 2px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 24px;
+    max-width: 768px;
+    background-color: white;
+  }
+  
+  form.register-form .input-country {
+    flex-direction: column;
+  }
+  
+  form.register-form .input-country label {
+    color: #616161;
+  }
+  
+  input[type="date"]::-webkit-datetime-edit {
+    color: #a8a8a8;
+    cursor: pointer;
+  }
+  
+  /* input[type="date"]::-webkit-inner-spin-button,
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+  } */
+  form.register-form .select-selected {
+    box-sizing: border-box;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    width: 354px;
+    line-height: normal;
+    margin-top: 8px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+  }
+  
+  form.register-form .register-form-inputs {
+    flex-wrap: wrap;
+  }
+  
+  .register-form-inputs label.register-form-label {
+    display: flex;
+    color: #616161;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  
+  .register-form-inputs label.password-label {
+    margin-bottom: 8px;
+  }
+  
+  label.password-label .input-password-container {
+    box-sizing: border-box;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    width: 354px;
+    padding: 9px 12px;
+    margin-top: 8px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+  }
+  
+  label.password-label .input-password-container input {
+    flex: 1;
+    outline: none;
+    border: none;
+    color: #a8a8a8;
+  }
+  
+  .register-form-inputs label.checkbox {
+    color: #616161;
+  }
+  
+  .register-form-inputs label.checkbox #chckbtn {
+    margin-right: 4px;
+  }
+  
+  .register-form-inputs label.checkbox a {
+    margin-left: 12px;
+    color: #f8c011;
+  }
+  
+  label.register-form-label input::placeholder {
+    color: #a8a8a8;
+  }
+  
+  label.register-form-label input:not(.type-password) {
+    box-sizing: border-box;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    width: 354px;
+    padding: 9px 12px;
+    margin-top: 8px;
+    color: #a8a8a8;
+  
+    line-height: normal;
+    display: flex;
+    align-items: center;
+  
+    justify-content: center;
+  }
+  .cins{
+    margin-bottom: 8px;
+  }
+  input::-webkit-input-placeholder {
+    line-height: normal !important;
+  }
+  #mesafe{
+    margin-bottom: 20px;
+  }
+  label.register-form-label input::placeholder {
+    display: flex;
+    align-items: center;
+  }
+  
+  .register-form button {
+    width: 100%;
+    margin-top: 32px;
+    background: #f8c011;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    text-transform: none;
+  }

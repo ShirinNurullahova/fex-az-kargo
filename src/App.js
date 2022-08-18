@@ -13,6 +13,7 @@ import News from "./components/News/News";
 import About from "./components/About/About";
 import Faq from './components/Faq/Faq';
 import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/faq" element={<Faq />} />
           <Route exact path="/login" element={<Login />} />
+          <Route exact path="/register" element={<Register />} />
 
         </Routes>
       </Router>
