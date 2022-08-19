@@ -7,6 +7,39 @@ import '../Register/Register.css'
 const Register = () => {
     const [selected3 , setSelected3] =useState("Cins")
     const [selected4 , setSelected4] =useState("Filial")
+    const [values, setValues] = React.useState({
+      password: "",
+      showPassword: false,
+  });
+ 
+  const [values1, setValues1] = React.useState({
+    password1: "",
+    showPassword1: false,
+});
+
+   
+  const handleClickShowPassword = () => {
+      setValues({ ...values, showPassword: !values.showPassword });
+  };
+  const handleClickShowPassword1 = () => {
+    setValues1({ ...values1, showPassword1: !values1.showPassword1 });
+};
+const handleMouseDownPassword1 = (event) => {
+  event.preventDefault();
+};
+
+
+  const handleMouseDownPassword = (event) => {
+      event.preventDefault();
+  };
+
+  const handlePasswordChange = (prop) => (event) => {
+      setValues({ ...values, [prop]: event.target.value });
+  };
+
+  const handlePasswordChange1 = (prop) => (event) => {
+    setValues1({ ...values1, [prop]: event.target.value });
+};
 
   return (
     <div>
@@ -60,12 +93,15 @@ const Register = () => {
           <label class="register-form-label password-label text-medium-16">
             Şifrə
             <div class="input-password-container d-flex-container">
-              <input
+              <input type={values.showPassword ? "text" : "password"}
+                                    onChange={handlePasswordChange("password")}
+                                    value={values.password}
                 class="type-password"
-                type="password"
+          
                 placeholder="**********"
               />
-              <svg
+              <svg  onClick={handleClickShowPassword}
+                                    onMouseDown={handleMouseDownPassword}
                 class="visible-svg pointer"
                 width="18"
                 height="12"
@@ -83,12 +119,15 @@ const Register = () => {
           <label class="register-form-label password-label text-medium-16">
             Şifrənin təkrarı
             <div class="input-password-container d-flex-container">
-              <input
+              <input   type={values1.showPassword1 ? "text" : "password"}
+                                    onChange={handlePasswordChange1("password")}
+                                    value1={values1.password1}
                 class="type-password"
-                type="password"
+        
                 placeholder="**********"
               />
-              <svg
+              <svg  onClick={handleClickShowPassword1}
+                                    onMouseDown={handleMouseDownPassword1}
                 width="18"
                 class="visible-svg pointer"
                 height="12"

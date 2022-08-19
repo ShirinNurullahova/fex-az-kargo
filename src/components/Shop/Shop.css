@@ -1,0 +1,43 @@
+.shops-page {
+    padding: 128px 11.67%;
+  }
+  
+  .shops-page-container {
+    margin-top: 37px;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+  
+  .shops-page-card {
+    display: flex;
+    width: 264px;
+    height: 100px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(228, 228, 228, 0.6);
+    border-radius: 2px;
+  }
+  .shops-page-card-price p{
+    text-align: left;
+  }
+  .shops-page-card-img {
+    width: 112px;
+  }
+  
+  .shops-page-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .shops-page-card-detail {
+    padding: 22px 12px;
+  }
+  
+  .shops-page-card-price {
+    margin-bottom: 24px;
+  }
+  

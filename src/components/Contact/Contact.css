@@ -1,0 +1,78 @@
+.contact-page {
+    padding: 160px 11.6% 200px 11.6%;
+    justify-content: space-between;
+  }
+  
+  .contact-info {
+    width: 35%;
+  }
+  
+  .contact-form {
+    width: 55%;
+    margin-top: 100px;
+  }
+  
+  .contact-title {
+    color: #454545;
+  }
+  
+  .contact-description {
+    margin: 12px 0 25px 0;
+    color: #616161;
+    font-weight: 400;
+  }
+  
+  .contact-details-item {
+    color: #616161;
+  }
+  
+  .contact-number {
+    margin: 15px 0 50px 0;
+  }
+  
+  .contact-form-title {
+    color: #616161;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  
+  .contact-form-inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px 0px #e4e4e480;
+  }
+  
+  .input-label {
+    color: #616161;
+    font-weight: 400;
+    margin-bottom: 35px;
+    width: 100%;
+  }
+  .contact-info{
+    text-align: left;
+  }
+  .contact-form{
+    text-align: left;
+  }
+  .label-input {
+    border: 1px solid #d6d6d6;
+    width: 100%;
+    padding: 10px 12px;
+    outline: none;
+    margin-top: 8px;
+    border-radius: 2px;
+  }
+  
+  .label-input::placeholder {
+    color: #a8a8a8;
+  }
+  
+  .form-submit-button {
+    background: #f8c011;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 2px;
+  }

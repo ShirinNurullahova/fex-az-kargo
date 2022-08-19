@@ -1,0 +1,23 @@
+.profile-yeni-etibarname{
+    margin: 40px 0 34px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .profile-yeni-etibarname div button{
+    width: 164px;
+    height: 32px;
+    background: #F8C011;
+    border-radius: 2px;
+    border-color: transparent;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  

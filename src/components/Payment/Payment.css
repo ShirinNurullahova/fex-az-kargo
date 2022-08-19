@@ -1,0 +1,61 @@
+.profile-odenishler-header {
+    width: 100%;
+    margin: 40px 0 34px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .profile-odenishler-header div form input {
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    width: 122px;
+    height: 32px;
+    text-align: center;
+    margin-right: 6px;
+  }
+  
+  .profile-odenishler-header div form button,
+  .profile-button-orange {
+    width: 77px;
+    height: 32px;
+    margin-left: 6px;
+    background: #f8c011;
+    border-radius: 2px;
+    border-color: transparent;
+    outline: none;
+    padding: 0 !important;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  table.GeneratedTable {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: #f0f0f0;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  table.GeneratedTable td,
+  table.GeneratedTable th {
+    border-width: 1px;
+    border-color: #f0f0f0;
+    border-style: solid;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  table.GeneratedTable th {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #f9f9f9;
+  }
+  
+  table.GeneratedTable thead {
+    background-color: #5a5a5a;
+}

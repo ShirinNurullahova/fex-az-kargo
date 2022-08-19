@@ -1,0 +1,60 @@
+.profile-page {
+    padding: 128px 3.89%;
+    display: flex;
+  }
+  
+  .profile-left {
+    width: 264px;
+    height: max-content;
+    background: #ffffff;
+    border-radius: 2px;
+    margin-right: 16px;
+    padding: 12px;
+  }
+  
+  .profile-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-header-tab {
+    width: 248px;
+    height: 60px;
+    background: #5a5a5a;
+    border-radius: 2px;
+    padding: 6px 12px;
+    color: #f9f9f9;
+  }
+  
+  .profile-header-tab:not(:first-child) {
+    margin-left: 19px;
+  }
+  
+  .profile-user p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    color: #454545;
+    margin-top: 8px;
+  }
+  
+  .profile-categories {
+    margin-top: 20px;
+  }
+  
+  .profile-categories ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-categories ul li {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .profile-right .calculate-form {
+    margin-top: 40px;
+  }

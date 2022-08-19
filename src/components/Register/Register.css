@@ -114,6 +114,9 @@
   
     justify-content: center;
   }
+  .register-title{
+    text-align: left;
+  }
   .cins{
     margin-bottom: 8px;
   }
