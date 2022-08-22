@@ -24,6 +24,10 @@ import Proxy from './components/Proxy/Proxy';
 import Location from "./components/Location/Location";
 import Appeal from "./components/Appeal/Appeal";
 import Shop from "./components/Shop/Shop";
+import Declare from "./components/Declare/Declare";
+import Declare2 from "./components/Declare2/Declare2";
+import Trendyol from "./components/Trendyol/Trendyol";
+import Trendyol2 from './components/Trendyol2/Trendyol2'
 function App() {
   return (
     <div className="App">
@@ -49,6 +53,10 @@ function App() {
           <Route exact path="/location" element={<Location />} />
           <Route exact path="/appeal" element={<Appeal />} />
           <Route exact path="/shop" element={<Shop />} />
+          <Route exact path="/declare" element={<Declare />} />
+          <Route exact path="/declare2" element={<Declare2 />} />
+          <Route exact path="/trendyol" element={<Trendyol />} />
+          <Route exact path="/trendyol2" element={<Trendyol2 />} />
 
         </Routes>
       </Router>

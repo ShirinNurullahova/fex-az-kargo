@@ -1,0 +1,48 @@
+table,
+th {
+    border: none;
+}
+
+td {
+    border-bottom: 1px solid #F0F0F0;
+    padding: 1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #616161;
+    /* border-right:1px solid #F0F0F0 ; */
+}
+
+.teybl {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(228, 228, 228, 0.6);
+    padding: 1%;
+    margin: 50px auto 150px auto;
+    text-align: left;
+
+}
+
+.text-up {
+    text-align: left;
+    width: 80%;
+    margin: 100px auto 100px auto;
+}
+table:first-child{
+    background-color: transparent;
+}
+.basliq{
+    margin: 50px auto 150px auto;
+    width: 80%;
+
+}
+.trr{
+    margin: 50px auto 150px auto;
+    width: 80%;
+
+}
