@@ -1,0 +1,21 @@
+#referal {
+    background-color: transparent;
+    border: 1px solid rgba(248, 192, 17, 1);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    width: 180px;
+    text-decoration-line: underline;
+
+    color: #5A5A5A;
+}
+.profile-yeni-muraciet{
+    display: flex;
+    justify-content: space-between;
+}
+#yellow-underline{
+    /* bottom: 0; */
+}

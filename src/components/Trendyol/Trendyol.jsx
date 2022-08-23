@@ -1,11 +1,11 @@
-import React , {useRef , useEffect} from 'react';
+import React, { useRef, useEffect } from 'react';
 import Header from '../Header/Header';
 import Footer from '../HomePage/Footer/Footer';
 import '../Trendyol/Trendyol.css'
 const Trendyol = () => {
- 
 
-  
+
+
     return (
         <div>
             <Header />
@@ -21,48 +21,54 @@ const Trendyol = () => {
                 </div>
             </div>
 
-   <div className='bfr'>
 
- 
- 
-   <table className='teybl'>
 
-      
-<tr>
-    
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-</tr>
-<tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-</tr>
 
-<tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-</tr>
-<tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-</tr>
-<tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-</tr>
-<tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-</tr>
-</table>
-   </div>
-           
+
+            <table className='teybl'>
+                <thead>
+                    <th>ID</th>
+                    <th>Message(kod)</th>
+                    <th>Tarix/saat</th>
+                </thead>
+                <tbody>
+                    <tr>
+
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+
             <Footer />
         </div>
     )

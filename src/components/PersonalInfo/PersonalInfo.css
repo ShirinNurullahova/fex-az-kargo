@@ -1,0 +1,64 @@
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(228, 228, 228, 0.6);
+    padding: 2% 2% 2% 1%;
+    margin-top: 5%;
+}
+.sag{
+    display: flex;
+    justify-content: space-between;
+}
+.personal-info-person{
+    margin-top: 2%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.birr{
+    margin-left: 20%;
+}
+.personal-input{
+    padding: 9px 20px;
+}
+label{
+    text-align: left;
+}
+#personBtn{
+    text-align: right;
+}
+.personDiv{
+    text-align: right;
+    margin-top: 4%;
+}
+.right-div-1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* or 138% */
+
+
+color: #616161;
+   display: flex;
+ padding: 4%;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(228, 228, 228, 0.6);
+
+}
+.right-div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 5%;
+}
+.right-div-form{
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(228, 228, 228, 0.6);
+    padding: 4%;
+margin-top: 10%;
+}

@@ -28,6 +28,10 @@ import Declare from "./components/Declare/Declare";
 import Declare2 from "./components/Declare2/Declare2";
 import Trendyol from "./components/Trendyol/Trendyol";
 import Trendyol2 from './components/Trendyol2/Trendyol2'
+import LinkedAccount from "./components/LinkedAccount/LinkedAccount";
+import CourierOrder from "./components/CourierOrder/CourierOrder";
+import PersonalInfo from "./components/PersonalInfo/PersonalInfo";
+import NewAppeal from "./components/NewAppeal/NewAppeal";
 function App() {
   return (
     <div className="App">
@@ -57,6 +61,10 @@ function App() {
           <Route exact path="/declare2" element={<Declare2 />} />
           <Route exact path="/trendyol" element={<Trendyol />} />
           <Route exact path="/trendyol2" element={<Trendyol2 />} />
+          <Route exact path="/linkedacc" element={<LinkedAccount />} />
+          <Route exact path="/courier" element={<CourierOrder />} />
+          <Route exact path="/personalinfo" element={<PersonalInfo />} />
+          <Route exact path="/newappeal" element={<NewAppeal />} />
 
         </Routes>
       </Router>

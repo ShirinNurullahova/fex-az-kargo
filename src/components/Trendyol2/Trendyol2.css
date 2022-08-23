@@ -1,0 +1,22 @@
+.iki{
+    display: flex;
+    padding: 10% 10%  20% 10%;
+ 
+   /* justify-content: space-evenly; */
+}
+#text-up , #teybl{
+    margin: 0;
+    padding: 0;
+}
+#text-up{
+    width: 50%;
+}
+th{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* or 138% */
+color: #616161;
+}
