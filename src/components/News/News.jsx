@@ -1,4 +1,4 @@
-import React , {useRef} from 'react'
+import React, { useRef } from 'react'
 import '../News/News.css'
 import Header from '../Header/Header';
 import image1 from '../../assets/images/news-img-1.png';
@@ -23,10 +23,10 @@ const News = () => {
         e.target.style.color = "#454545";
 
 
-        if (e.target.innerHTML === ' Yeniler ') {
+        if (e.target.innerHTML === 'Yeni') {
             e.target.nextElementSibling.style.color = "#797979";
         } else {
-            e.target.previousElementSibling.style.color = "#797979 !important" ;
+            e.target.previousElementSibling.style.color = "#797979";
         }
 
 
@@ -37,8 +37,8 @@ const News = () => {
             <section class="news-section-wrapper">
                 <h2 class="news-heading">Yeniliklər</h2>
                 <div class="home-tarrifs-countries d-flex text-medium-16">
-                    <p  onClick={yellowLine}>  Yeniler  </p>
-                    <p   onClick={yellowLine}>  Kohneler </p>
+                    <p id="home-turkiye" onClick={yellowLine}>Yeni</p>
+                    <p id="home-amerika" onClick={yellowLine}>Kohne</p>
                     <span id="yellow-underline" class="home-tarrifs-line" ref={yellowRef}></span>
                 </div>
 
@@ -174,7 +174,7 @@ const News = () => {
                     </button>
                 </div>
             </section>
-            <Footer/>
+            <Footer />
         </div>
     )
 }
