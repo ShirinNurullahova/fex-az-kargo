@@ -32,6 +32,7 @@ import LinkedAccount from "./components/LinkedAccount/LinkedAccount";
 import CourierOrder from "./components/CourierOrder/CourierOrder";
 import PersonalInfo from "./components/PersonalInfo/PersonalInfo";
 import NewAppeal from "./components/NewAppeal/NewAppeal";
+import CreateProxy from "./components/CreateProxy/CreateProxy";
 function App() {
   return (
     <div className="App">
@@ -65,6 +66,7 @@ function App() {
           <Route exact path="/courier" element={<CourierOrder />} />
           <Route exact path="/personalinfo" element={<PersonalInfo />} />
           <Route exact path="/newappeal" element={<NewAppeal />} />
+          <Route exact path="/createproxy" element={<CreateProxy />} />
 
         </Routes>
       </Router>

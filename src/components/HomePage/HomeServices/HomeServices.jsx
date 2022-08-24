@@ -42,11 +42,9 @@ const HomeServices = () => {
           </h4>
           <div class="service-card-description">
             <p class="card-desc text-regular-14">
-              Türkiyədə "Kapıda ödeme" xidməti Türkiyənin bank kartları ilə
-              ödəniş etmək mümkün olmayan saytlarından alış-veriş etməyə imkan
-              yaradır. Belə ki, Türkiyə daxili karqo bağlamanızı bizim xarici
-              anbarımıza təhvil verdikdə, məhsulunuzun ödənişi xarici anbarda
-              satıcı firmaya ödənilir.
+            Məhsulu siz seçirsiniz, linkini göndərirsiniz, 
+            ödəniş edirsiniz, sifariş tərəfimizdən yerinə yetrilir.
+             Bu xidmət üçün komissiya haqqı 5% təşkil edir.
             </p>
           </div>
         </div>
