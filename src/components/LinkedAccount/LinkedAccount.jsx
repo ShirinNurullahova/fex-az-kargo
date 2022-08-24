@@ -1,4 +1,4 @@
-import React , {useState , useRef} from 'react'
+import React, { useState, useRef } from 'react'
 import Header from '../Header/Header';
 import Footer from '../HomePage/Footer/Footer';
 import '../LinkedAccount/LinkedAccount.css'
@@ -51,7 +51,11 @@ const LinkedAccount = () => {
                             <li class="text-regular-16">Promo kod</li>
                             <li class="text-regular-16">Müraciətlərim</li>
                             <li class="text-regular-16">Xəritə</li>
-                            <li class="text-regular-16">Əlaqəli hesablara</li>
+
+                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <li class="text-regular-16" id='beyan'>Əlaqəli hesablara</li>
+                                <span className='beyan-span'></span>
+                            </div>
                             <li class="text-regular-16">Kuryer sifarişlərim</li>
                             <li class="text-regular-16">Şəxsi məlumatlarım</li>
                             <li class="text-regular-16">Çıxış</li>
@@ -103,7 +107,7 @@ const LinkedAccount = () => {
                                     <th>Musteri kodu</th>
                                     <th>Ad(soyad)</th>
                                     <th>Email</th>
-                                  
+
                                 </tr>
                             </thead>
                             <tbody>
@@ -111,31 +115,31 @@ const LinkedAccount = () => {
                                     <td>3439876</td>
                                     <td>$30.00</td>
                                     <td>Pending</td>
-                                  
+
                                 </tr>
                                 <tr>
                                     <td>3439876</td>
                                     <td>$30.00</td>
                                     <td>Pending</td>
-                                  
+
                                 </tr>
                                 <tr>
                                     <td>3439876</td>
                                     <td>$30.00</td>
                                     <td>Pending</td>
-                                   
+
                                 </tr>
                                 <tr>
                                     <td>3439876</td>
                                     <td>$30.00</td>
                                     <td>Pending</td>
-                                  
+
                                 </tr>
                                 <tr>
                                     <td>3439876</td>
                                     <td>$30.00</td>
                                     <td>Pending</td>
-                                  
+
                                 </tr>
                             </tbody>
                         </table>

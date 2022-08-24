@@ -24,7 +24,10 @@ const Location = () => {
             <li class="text-regular-16">Balansım</li>
             <li class="text-regular-16">Etibarnamələr</li>
             <li class="text-regular-16">Ödənişlər tarixcəsi</li>
-            <li class="text-regular-16">Xarici ünvanlar</li>
+            <div style={{display:"flex", flexDirection:"column"}}>
+            <li class="text-regular-16" id='beyan'>Xarici ünvanlar </li>
+              <span className='beyan-span'></span>
+            </div>
             <li class="text-regular-16">Borclar</li>
             <li class="text-regular-16">Cashback</li>
             <li class="text-regular-16">Promo kod</li>

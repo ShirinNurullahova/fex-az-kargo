@@ -54,7 +54,11 @@ const Declare = () => {
 
     <div class="profile-categories">
         <ul>
-            <li class="text-regular-16">Bəyənatlar/Bağlamalar</li>
+            <div style={{display:"flex", flexDirection:"column"}}>
+            <li class="text-regular-16" id='beyan'>Bəyənatlar/Bağlamalar</li>
+              <span className='beyan-span'></span>
+            </div>
+          
             <li class="text-regular-16">Hesablama kalkulyatoru</li>
             <li class="text-regular-16">Sifariş Et/Qapıda Ödəmə</li>
             <li class="text-regular-16">Balansım</li>

@@ -30,7 +30,12 @@ const PersonalInfo = () => {
                             <li class="text-regular-16">Xəritə</li>
                             <li class="text-regular-16">Əlaqəli hesablara</li>
                             <li class="text-regular-16">Kuryer sifarişlərim</li>
-                            <li class="text-regular-16">Şəxsi məlumatlarım</li>
+
+                            <div style={{display:"flex", flexDirection:"column"}}>
+            <li class="text-regular-16" id='beyan'>Şəxsi məlumatlarım </li>
+              <span className='beyan-span'></span>
+            </div>
+
                             <li class="text-regular-16">Çıxış</li>
                         </ul>
                     </div>

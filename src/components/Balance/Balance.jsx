@@ -43,7 +43,10 @@ const Balance = () => {
                             <li class="text-regular-16">Bəyənatlar/Bağlamalar</li>
                             <li class="text-regular-16">Hesablama kalkulyatoru</li>
                             <li class="text-regular-16">Sifariş Et/Qapıda Ödəmə</li>
-                            <li class="text-regular-16">Balansım</li>
+                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <li class="text-regular-16" id='beyan'>Balansim</li>
+                                <span className='balans-span'></span>
+                            </div>  
                             <li class="text-regular-16">Etibarnamələr</li>
                             <li class="text-regular-16">Ödənişlər tarixcəsi</li>
                             <li class="text-regular-16">Xarici ünvanlar</li>
@@ -93,7 +96,7 @@ const Balance = () => {
                     <div class="profile-balance">
                         <label class="text-medium-16">Mebleg</label>
                         <div>
-                            <input type="text" placeholder="TURKIYE" />
+                            <input type="text" placeholder="TURKIYE" className='turkey' />
                             <select name="" id="">
                                 <option value="TRY">TRY</option>
                             </select>

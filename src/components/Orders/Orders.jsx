@@ -73,7 +73,10 @@ const Orders = () => {
                         <ul>
                             <li class="text-regular-16">Bəyənatlar/Bağlamalar</li>
                             <li class="text-regular-16">Hesablama kalkulyatoru</li>
-                            <li class="text-regular-16">Sifariş Et/Qapıda Ödəmə</li>
+                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <li class="text-regular-16" id='beyan'>Sifariş Et/Qapıda Ödəmə</li>
+                                <span className='beyan-span'></span>
+                            </div>  
                             <li class="text-regular-16">Balansım</li>
                             <li class="text-regular-16">Etibarnamələr</li>
                             <li class="text-regular-16">Ödənişlər tarixcəsi</li>

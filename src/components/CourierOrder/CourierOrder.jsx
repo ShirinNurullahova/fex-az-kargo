@@ -78,7 +78,12 @@ const CourierOrder = () => {
             <li class="text-regular-16">Müraciətlərim</li>
             <li class="text-regular-16">Xəritə</li>
             <li class="text-regular-16">Əlaqəli hesablara</li>
-            <li class="text-regular-16">Kuryer sifarişlərim</li>
+
+
+            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <li class="text-regular-16" id='beyan'>Kuryer sifarişlərim</li>
+                                <span className='balans-span'></span>
+                            </div>
             <li class="text-regular-16">Şəxsi məlumatlarım</li>
             <li class="text-regular-16">Çıxış</li>
         </ul>

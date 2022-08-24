@@ -71,13 +71,24 @@
     outline: none;
     cursor: pointer;
   }
+  .turkey{
+    margin-right: 1%;
+  }
   .profile-left , .profile-right{
     text-align: left;
   }
   .profile-balance-btns-container button:nth-child(2) {
     margin: 0 6px;
   }
-  
+  .balans-span{
+
+    left: 0;
+    bottom: -10px;
+    width: 200px;
+    height: 1.5px;
+    background-color: #f8c011;
+    transition: 0.2s;
+}
   .profile-balance-submit button {
     width: 408px;
     height: 32px;

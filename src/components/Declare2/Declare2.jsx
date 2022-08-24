@@ -48,8 +48,10 @@ const Declare2 = () => {
 
                     <div class="profile-categories">
                         <ul>
-                            <li class="text-regular-16">Bəyənatlar/Bağlamalar</li>
-                            <li class="text-regular-16">Hesablama kalkulyatoru</li>
+                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <li class="text-regular-16" id='beyan'>Bəyənatlar/Bağlamalar</li>
+                                <span className='beyan-span'></span>
+                            </div>                            <li class="text-regular-16">Hesablama kalkulyatoru</li>
                             <li class="text-regular-16">Sifariş Et/Qapıda Ödəmə</li>
                             <li class="text-regular-16">Balansım</li>
                             <li class="text-regular-16">Etibarnamələr</li>
@@ -113,7 +115,7 @@ const Declare2 = () => {
                                     Kategoriya
                                     <input type="text" placeholder="" id="uzunluq" />
                                 </label>
-                                
+
 
                             </div>
                             <label class="register-form-label text-medium-16" id='magaza'>
@@ -136,7 +138,7 @@ const Declare2 = () => {
 
                             <div className='twoflex'>
                                 <label class="register-form-label text-medium-16" id='mesafe'>
-                                   Miqdar
+                                    Miqdar
                                     <input type="text" placeholder=" AZE _ _ _ _ _ _ _ _ " id="uzunluq" />
                                 </label>
 
@@ -163,7 +165,7 @@ const Declare2 = () => {
                                 <span className='sert'>Şərtləri qəbul edirəm</span> <a href="№">Şərtləri oxu</a>
                             </label>
                             <div className='rgt'>
-                            <button class="text-medium-14" id='sari'>Beyan et</button>
+                                <button class="text-medium-14" id='sari'>Beyan et</button>
 
                             </div>
 

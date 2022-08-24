@@ -1,12 +1,12 @@
-import React , {useState} from 'react'
+import React, { useState } from 'react'
 import '../Calculate/Calculate.css';
 import Header from '../Header/Header';
 import Footer from '../HomePage/Footer/Footer';
 import DropDown from '../HomePage/DropDown/DropDown';
 import DropDown2 from '../HomePage/DropDown2/DropDown2';
 const Calculate = () => {
-    const [selected , setSelected] =useState("Turkiye")
-const [selected2 , setSelected2] =useState("Diger")
+    const [selected, setSelected] = useState("Turkiye")
+    const [selected2, setSelected2] = useState("Diger")
     return (
         <div>
             <Header />
@@ -21,7 +21,10 @@ const [selected2 , setSelected2] =useState("Diger")
                     <div class="profile-categories">
                         <ul>
                             <li class="text-regular-16">Bəyənatlar/Bağlamalar</li>
-                            <li class="text-regular-16">Hesablama kalkulyatoru</li>
+                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <li class="text-regular-16" id='hesab'>Hesablama Kalkulyatoru</li>
+                                <span className='calc-span'></span>
+                            </div>
                             <li class="text-regular-16">Sifariş Et/Qapıda Ödəmə</li>
                             <li class="text-regular-16">Balansım</li>
                             <li class="text-regular-16">Etibarnamələr</li>

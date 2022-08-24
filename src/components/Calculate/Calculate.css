@@ -144,3 +144,16 @@
   .same-as-selected {
     background-color: rgba(0, 0, 0, 0.1);
   }
+  .calc-span{
+    /* position: absolute; */
+    left: 0;
+    bottom: -10px;
+    width: 200px;
+    height: 1.5px;
+    background-color: #f8c011;
+    transition: 0.2s;
+}
+#hesab{
+  color:rgba(69, 69, 69, 1);
+font-weight: 600;
+}

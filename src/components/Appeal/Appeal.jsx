@@ -22,12 +22,16 @@ const Appeal = () => {
             <li class="text-regular-16">Sifariş Et/Qapıda Ödəmə</li>
             <li class="text-regular-16">Balansım</li>
             <li class="text-regular-16">Etibarnamələr</li>
+
             <li class="text-regular-16">Ödənişlər tarixcəsi</li>
             <li class="text-regular-16">Xarici ünvanlar</li>
             <li class="text-regular-16">Borclar</li>
             <li class="text-regular-16">Cashback</li>
             <li class="text-regular-16">Promo kod</li>
-            <li class="text-regular-16">Müraciətlərim</li>
+            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <li class="text-regular-16" id='beyan'>Müraciətlərim</li>
+                                <span className='beyan-span'></span>
+                            </div> 
             <li class="text-regular-16">Xəritə</li>
             <li class="text-regular-16">Əlaqəli hesablara</li>
             <li class="text-regular-16">Kuryer sifarişlərim</li>

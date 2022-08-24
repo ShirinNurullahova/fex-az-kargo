@@ -21,7 +21,13 @@ const Proxy = () => {
             <li class="text-regular-16">Hesablama kalkulyatoru</li>
             <li class="text-regular-16">Sifariş Et/Qapıda Ödəmə</li>
             <li class="text-regular-16">Balansım</li>
-            <li class="text-regular-16">Etibarnamələr</li>
+
+
+            <div style={{ display: "flex", flexDirection: "column" }}>
+            <li class="text-regular-16" id='beyan'>Etibarnamələr</li>
+                                <span className='beyan-span'></span>
+                            </div>  
+
             <li class="text-regular-16">Ödənişlər tarixcəsi</li>
             <li class="text-regular-16">Xarici ünvanlar</li>
             <li class="text-regular-16">Borclar</li>

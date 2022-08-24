@@ -21,7 +21,10 @@ const CreateProxy = () => {
                             <li class="text-regular-16">Hesablama kalkulyatoru</li>
                             <li class="text-regular-16">Sifariş Et/Qapıda Ödəmə</li>
                             <li class="text-regular-16">Balansım</li>
-                            <li class="text-regular-16">Etibarnamələr</li>
+                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <li class="text-regular-16" id='beyan'>Etibarnamələr</li>
+                                <span className='beyan-span'></span>
+                            </div>
                             <li class="text-regular-16">Ödənişlər tarixcəsi</li>
                             <li class="text-regular-16">Xarici ünvanlar</li>
                             <li class="text-regular-16">Borclar</li>
@@ -60,7 +63,7 @@ const CreateProxy = () => {
                             <p class="text-semibold-16">0</p>
                         </div>
                     </div>
-                  <p className='etibarname'>Etibarname yarat</p>
+                    <p className='etibarname'>Etibarname yarat</p>
                     <div className='create-proxy'>
                         <div className='new-appeal1'>
                             <label for="name" class=" text-medium-16" id='label-id'>
@@ -73,32 +76,32 @@ const CreateProxy = () => {
                             </label>
                         </div>
                         <div className='new-appeal1'>
-                            <label for="name" class=" text-medium-16"  id='label-id'>
-                              <p className='yazi'>S/V seriya nomresi</p>  
+                            <label for="name" class=" text-medium-16" id='label-id'>
+                                <p className='yazi'>S/V seriya nomresi</p>
                                 <input className="appeal-info text-regular-16" type="text" id="name" />
                             </label>
                             <label for="name" class=" text-medium-16" id='label-id'>
-                               <p className='yazi'>S/V FIN kodu</p> 
+                                <p className='yazi'>S/V FIN kodu</p>
                                 <input className="appeal-info text-regular-16" type="text" id="name" />
                             </label>
                         </div>
                         <div className='new-appeal1'>
-                            <label for="name" class=" text-medium-16"  id='label-id'>
-                              <p className='yazi'>Dogum tarixi</p>  
+                            <label for="name" class=" text-medium-16" id='label-id'>
+                                <p className='yazi'>Dogum tarixi</p>
                                 <input className="appeal-info text-regular-16" type="text" id="name" placeholder='dd.mm.yyyy' />
                             </label>
                             <label for="name" class=" text-medium-16" id='label-id'>
-                               <p className='yazi'>Valyuta</p> 
-                                <input className="appeal-info text-regular-16" type="text" id="name" placeholder='0'/>
+                                <p className='yazi'>Valyuta</p>
+                                <input className="appeal-info text-regular-16" type="text" id="name" placeholder='0' />
                             </label>
                         </div>
                         <div className='new-appeal1'>
-                            <label for="name" class=" text-medium-16"  id='label-id'>
-                              <p className='yazi'>Miqdar</p>  
-                                <input className="appeal-info text-regular-16" type="text" id="name" placeholder='AZE _ _ _ _ _ _ _ _'/>
+                            <label for="name" class=" text-medium-16" id='label-id'>
+                                <p className='yazi'>Miqdar</p>
+                                <input className="appeal-info text-regular-16" type="text" id="name" placeholder='AZE _ _ _ _ _ _ _ _' />
                             </label>
                             <label for="name" class=" text-medium-16" id='label-id'>
-                               <p className='yazi'>Etrafli</p> 
+                                <p className='yazi'>Etrafli</p>
                                 <input className="appeal-info text-regular-16" type="text" id="name" />
                             </label>
                         </div>
